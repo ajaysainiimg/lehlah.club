@@ -1,18 +1,18 @@
-// // on scorll navbar
-window.onscroll = function () {
-    scrollFunction();
-  };
+// // // on scorll navbar
+// window.onscroll = function () {
+//     scrollFunction();
+//   };
   
-  var first = true;
+//   var first = true;
   
-  function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      document.getElementById("navbar").classList.add('fixed-navbar');
-    }
-     else {
-      document.getElementById("navbar").classList.remove('fixed-navbar');
-    }
-  }
+//   function scrollFunction() {
+//     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//       document.getElementById("navbar").classList.add('fixed-navbar');
+//     }
+//      else {
+//       document.getElementById("navbar").classList.remove('fixed-navbar');
+//     }
+//   }
 // slider
 // $(document).ready(function () {
 //   (function ($) {
