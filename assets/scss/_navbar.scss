@@ -172,13 +172,16 @@
 // X-Small devices (portrait phones, less than 576px)
 @mixin navbar-mixin-max-xs() {
     .navbar {
-        height: 80px;
+        height: 70px;
         .navbar-brand {
             width: 120px;
         }
         & .menu-icon {
         }
         & .header-offcanvas {
+            & .offcanvas-header {
+                height: 70px
+            }
             & .offcanvas-logo {
                 width: 120px;
             }

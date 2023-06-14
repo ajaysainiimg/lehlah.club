@@ -190,6 +190,9 @@
   @include faqsection-mixin-max-xs();
   @include main-mixin-max-xs();
 }
+// max width 420px
+@media (max-width: 400px) {
+}
 // XX-Large devices (larger desktops)
 // No media query since the xxl breakpoint has no upper bound on its width
 
