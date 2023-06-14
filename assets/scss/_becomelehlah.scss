@@ -10,6 +10,18 @@
             }
         }
     }
+    & .starimg {
+            animation: rotation 5s linear infinite;
+            @keyframes rotation {
+                from {
+                  transform: rotate(0deg);
+                }
+                to {
+                  transform: rotate(359deg);
+                }
+              }
+        
+    }
     & .herotwo-heading {
         font-size: 30px;
         color: $white;
@@ -569,7 +581,7 @@
              }
          }
           & .form-img {
-            max-width: 150px;
+            max-width: 130px;
             top: -2rem;
           }
           & .form-img2 {
@@ -611,6 +623,7 @@
                     width: 18px;
                     background-size: cover;
                      background-position: center;
+                     margin-left: 10px;
                   }
                   &:not(.collapsed)::after {
                     content: '';
