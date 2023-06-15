@@ -486,8 +486,7 @@
         line-height: 44px;
         color: $white;
         & .staricon {
-            top: -15px;
-            right: 39px
+            top: -12px;
         }
     }
     & .styleright {
@@ -1686,22 +1685,31 @@
         }
         & .userIcons {
             & .iconone {
+                right: 13px;
                 &:hover {
                 }
             }
             & .icontwo {
+                max-width: 200px;
+                max-height: 200px;
+                left: 0;
                 &:hover {
                 }
             }
             & .iconthree {
+                right: 0;
+                top: 180px;
                 &:hover {
                 }
             }
             & .iconfour {
+                max-width: 200px;
+                max-height: 200px;
                 &:hover {
                 }
             }
             & .iconfive {
+                bottom: 95px;
                 &:hover {
                 }
             }
@@ -1710,6 +1718,7 @@
                 }
             }
             & .iconseven {
+                right: 0;
                 &:hover {
                 }
             }
@@ -1718,10 +1727,16 @@
                 }
             }
             & .iconnine {
+                max-width: 165px;
+                max-height: 165px;
+                right: 0;
+                bottom: 158px;
                 &:hover {
                 }
             }
             & .iconten {
+                max-width: 200px;
+                max-height: 200px;
                 &:hover {
                 }
             }
@@ -1730,6 +1745,7 @@
                 }
             }
             & .icontwelv {
+                top: 115px;
                 &:hover {
                 }
             }
@@ -1748,17 +1764,27 @@
             font-size: 17px;
         }
         & .mobile-icon {
+            max-width: 200px;
+            height: auto;
         }
         & .userIcons {
             & .iconone {
+                right: 0;
+                max-width: 110px;
+                max-height: 110px;
                 &:hover {
                 }
             }
             & .icontwo {
+                max-width: 140px;
+                max-height: 140px;
                 &:hover {
                 }
             }
             & .iconthree {
+                top: 177px;
+                max-width: 130px;
+                max-height: 130px;
                 &:hover {
                 }
             }
@@ -1767,10 +1793,15 @@
                 }
             }
             & .iconfive {
+                right: 10px;
+                bottom: 40px;
                 &:hover {
                 }
             }
             & .iconsix {
+                top: 0;
+                max-width: 110px;
+                max-height: 110px;
                 &:hover {
                 }
             }
@@ -1779,22 +1810,37 @@
                 }
             }
             & .iconeight {
+                top: 115px;
+                left: 0;
+                max-width: 100px;
+                max-height: 100px;
                 &:hover {
                 }
             }
             & .iconnine {
+                max-width: 110px;
+                max-height: 110px;
+                bottom: 120px;
                 &:hover {
                 }
             }
             & .iconten {
+                max-width: 150px;
+                max-height: 150px;
+                left: 0;
+                
                 &:hover {
                 }
             }
             & .iconelevn {
+                top: 0;
+                max-width: 40px;
+                max-height: 40px;
                 &:hover {
                 }
             }
             & .icontwelv {
+                display: none;
                 &:hover {
                 }
             }
@@ -1813,46 +1859,74 @@
             font-size: 15px;
         }
         & .mobile-icon {
-            max-width: 220px;
+            max-width: 200px;
         }
         & .userIcons {
             & .iconone {
+                max-width: 95px;
+                max-height:95px ;
                 &:hover {
                 }
             }
             & .icontwo {
+                max-width: 100px;
+                max-height: 110px;
+                top: 84px;
                 &:hover {
                 }
             }
             & .iconthree {
+                max-width: 100px;
+                max-height: 100px;
+                top: 185px;
                 &:hover {
                 }
             }
             & .iconfour {
+                height: 110px;
+                width: 110px;
+                left: 0;
                 &:hover {
                 }
             }
             & .iconfive {
+                max-width: 40px;
+                max-height: 40px;
+                right: 0;
+                bottom: 75px;
                 &:hover {
                 }
             }
             & .iconsix {
+                max-width: 85px;
+                max-height: 85px;
                 &:hover {
                 }
             }
             & .iconseven {
+                max-width: 90px;
+                max-height: 90px;
+                top: 80px;
                 &:hover {
                 }
             }
             & .iconeight {
+                max-width: 70px;
+                max-height: 70px;
+                top: 160px;
                 &:hover {
                 }
             }
             & .iconnine {
+                max-width: 95px;
+                max-height: 95px;
+                bottom: 105px;
                 &:hover {
                 }
             }
             & .iconten {
+                max-width: 105px;
+                max-height: 105px;
                 &:hover {
                 }
             }
@@ -1883,10 +1957,13 @@
         }
         & .userIcons {
             & .iconone {
+                height: 70px;
+                width: 70px;
                 &:hover {
                 }
             }
             & .icontwo {
+                top: 77px;
                 &:hover {
                 }
             }
@@ -1895,6 +1972,8 @@
                 }
             }
             & .iconfour {
+                height: 85px;
+                width: 85px;
                 &:hover {
                 }
             }
@@ -1907,18 +1986,27 @@
                 }
             }
             & .iconseven {
+                top: 90px;
+                height: 80px;
+                width: 80px;
                 &:hover {
                 }
             }
             & .iconeight {
+                display: none;
                 &:hover {
                 }
             }
             & .iconnine {
+                bottom: 115px;
+                height: 85px;
+                width: 85px;
                 &:hover {
                 }
             }
             & .iconten {
+                height: 100px;
+                width: 100px;
                 &:hover {
                 }
             }
@@ -1933,13 +2021,178 @@
         }
     }
 }
-
-
+// less than  420px
+@media screen and (max-width :420px) {
+    .styleicon {
+        & .styleicon-heading {
+            font-size: 24px;
+            & .staricon {
+            }
+        }
+        & .styleicon-title {
+            font-size: 13px;
+        }
+        & .mobile-icon {
+        }
+        & .userIcons {
+            & .iconone {
+                height: 60px !important;
+                width: 60px !important;
+                right: -20px !important;
+                &:hover {
+                }
+            }
+            & .icontwo {
+                height: 60px !important;
+                width: 60px !important;
+          
+                &:hover {
+                }
+            }
+            & .iconthree {
+                width: 65px !important;
+                height: 65px !important;
+                right: -20px !important;
+                &:hover {
+                }
+            }
+            & .iconfour {
+                &:hover {
+                }
+            }
+            & .iconfive {
+                bottom: 95px !important;
+                &:hover {
+                }
+            }
+            & .iconsix {
+                height: 60px !important;
+                width: 60px !important;
+                left: -20px !important;
+                &:hover {
+                }
+            }
+            & .iconseven {
+                &:hover {
+                }
+            }
+            & .iconeight {
+                &:hover {
+                }
+            }
+            & .iconnine {
+                bottom: 140px !important;
+                height: 80px !important;
+                width: 80px !important;
+                &:hover {
+                }
+            }
+            & .iconten {
+                height: 70px !important;
+                width: 70px !important;
+                bottom: 20px !important;
+                left: -20px !important;
+                &:hover {
+                }
+            }
+            & .iconelevn {
+                &:hover {
+                }
+            }
+            & .icontwelv {
+                &:hover {
+                }
+            }
+        }
+    }
+}
+// @mixin styleicon-mixin-max-420px() {
+//     .styleicon {
+//         & .styleicon-heading {
+//             font-size: 24px;
+//             & .staricon {
+//             }
+//         }
+//         & .styleicon-title {
+//             font-size: 13px;
+//         }
+//         & .mobile-icon {
+//             max-width: 200px;
+//         }
+//         & .userIcons {
+//             & .iconone {
+//                 height: 70px;
+//                 width: 70px;
+//                 &:hover {
+//                 }
+//             }
+//             & .icontwo {
+//                 top: 77px;
+//                 &:hover {
+//                 }
+//             }
+//             & .iconthree {
+//                 &:hover {
+//                 }
+//             }
+//             & .iconfour {
+//                 height: 85px;
+//                 width: 85px;
+//                 &:hover {
+//                 }
+//             }
+//             & .iconfive {
+//                 &:hover {
+//                 }
+//             }
+//             & .iconsix {
+//                 &:hover {
+//                 }
+//             }
+//             & .iconseven {
+//                 top: 90px;
+//                 height: 80px;
+//                 width: 80px;
+//                 &:hover {
+//                 }
+//             }
+//             & .iconeight {
+//                 display: none;
+//                 &:hover {
+//                 }
+//             }
+//             & .iconnine {
+//                 bottom: 115px;
+//                 height: 85px;
+//                 width: 85px;
+//                 &:hover {
+//                 }
+//             }
+//             & .iconten {
+//                 height: 100px;
+//                 width: 100px;
+//                 &:hover {
+//                 }
+//             }
+//             & .iconelevn {
+//                 &:hover {
+//                 }
+//             }
+//             & .icontwelv {
+//                 &:hover {
+//                 }
+//             }
+//         }
+//     }
+// }
 // icon-testimonal start
 .iconTestimonal {
     & .testimonal-heading {
         font-size: 48px;
         color: $white;
+        & .navstar {
+            top: -16px;
+        }
     }
     & .center {
         height: 47%;
@@ -2033,7 +2286,7 @@
 @mixin iconTestimonal-mixin-max-md() {
     .iconTestimonal {
         & .testimonal-heading {
-            font-size: 26px;
+            font-size: 36px;
         }
         & .center {
         }
@@ -2078,7 +2331,6 @@
             font-size: 30px;
             color: $white;
             & .staricon {
-                top: 5px;
             }
         }
         & .download-title {
@@ -2203,7 +2455,7 @@
             & .download-heading {
                 font-size: 21px;
                 & .staricon {
-                    right: 0;
+
                 }
             }
             & .download-title {
@@ -2240,7 +2492,7 @@
         color: $black;
         line-height: 45px;
         & .follow-staricon {
-            top: -20px;
+            top: -10px;
         }
     }
     & .followimg {
@@ -2430,3 +2682,10 @@
 // followinsta media query start
 
 
+@media screen and (max-width:576px) {
+    .realstyle {
+        & .marquee-img {
+            height: 28px !important;
+        }
+    }
+}

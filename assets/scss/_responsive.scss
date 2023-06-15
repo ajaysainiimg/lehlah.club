@@ -191,8 +191,9 @@
   @include main-mixin-max-xs();
 }
 // max width 420px
-@media (max-width: 400px) {
-}
+// @media (max-width: 400px) {
+//   @include styleicon-mixin-max-420px()
+// }
 // XX-Large devices (larger desktops)
 // No media query since the xxl breakpoint has no upper bound on its width
 

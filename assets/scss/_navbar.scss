@@ -100,6 +100,7 @@
             & .btn-close {
             }
             & .navbar-nav {
+                gap: 35px;
                 & .nav-item {
                     & .nav-link {
                            &:hover {
@@ -180,7 +181,7 @@
         }
         & .header-offcanvas {
             & .offcanvas-header {
-                height: 70px
+                height: 75px
             }
             & .offcanvas-logo {
                 width: 120px;
